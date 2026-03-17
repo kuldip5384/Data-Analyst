@@ -1,0 +1,103 @@
+🛒 Online Retail Data Analysis Project
+📌 Project Overview
+
+This project analyzes an online retail dataset to uncover valuable business insights related to customer behavior, sales performance, and product trends. The goal is to transform raw transactional data into meaningful insights using data cleaning, SQL, Python, and visualization tools.
+
+📊 Dataset Description
+
+The dataset contains transactional data of an online retail store. Each record represents a product purchased by a customer.
+
+🔑 Columns Included:
+
+InvoiceNo – Unique transaction ID
+
+StockCode – Product/item code
+
+Description – Product name
+
+Quantity – Number of items purchased
+
+InvoiceDate – Date and time of purchase
+
+UnitPrice – Price per item
+
+CustomerID – Unique customer ID
+
+Country – Customer location
+
+🎯 Objectives
+
+Clean and preprocess raw data
+
+Perform exploratory data analysis (EDA)
+
+Identify top-selling products and countries
+
+Analyze customer purchasing behavior
+
+Perform RFM (Recency, Frequency, Monetary) analysis
+
+Create interactive dashboards
+
+🛠️ Tools & Technologies
+
+Excel – Initial data exploration
+
+MySQL – Data cleaning & querying
+
+Python (Pandas, Matplotlib, Seaborn) – Data analysis
+
+Tableau / Power BI – Data visualization
+
+🧹 Data Cleaning Steps
+
+Removed missing values (CustomerID)
+
+Filtered out negative or zero quantities
+
+Removed duplicate records
+
+Converted date columns into proper format
+
+📈 Key Analysis Performed
+
+Sales trend over time
+
+Top products by revenue
+
+Country-wise sales distribution
+
+Customer segmentation using RFM
+
+Monthly revenue analysis
+
+📊 Dashboard & Visualization
+
+Interactive dashboards created using Tableau / Power BI
+
+KPIs included:
+
+Total Revenue
+
+Total Orders
+
+Top Customers
+
+Best-Selling Products
+
+📂 Project Structure
+📁 Online-Retail-Analysis
+│── 📄 data.csv
+│── 📄 sql_queries.sql
+│── 📄 analysis.ipynb
+│── 📄 dashboard.twbx
+│── 📄 README.md
+🚀 Key Insights
+
+A small percentage of customers generate the majority of revenue
+
+Certain products dominate sales consistently
+
+Sales peak during specific months (seasonal trends)
+
+International markets contribute significantly to revenue
