@@ -1,6 +1,5 @@
 # Data-Analyst
 🛒 Online Retail Data Analysis Project
-📌 Project Overview
 
 This project focuses on analyzing an online retail dataset to extract meaningful business insights. The analysis explores customer behavior, sales performance, and product trends using data cleaning, SQL, Python, and visualization tools.
 
